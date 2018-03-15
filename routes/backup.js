@@ -24,7 +24,7 @@ router.post('/', oauth.authorise(), (req, res, next) => {
 			      secure: true, // secure:true for port 465, secure:false for port 587
 			      auth: {
 			          user: 'raees.shaikh241@gmail.com',
-			          pass: 'a1b2c3d4$'
+			          pass: 'xxxxxxx'
 			      }
 			  });
 

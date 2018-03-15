@@ -17,7 +17,7 @@ router.post('/', oauth.authorise(), (req, res, next) => {
   // var options = 'http://smshorizon.co.in/api/sendsms.php?user=raees&apikey=oe0F1BRCS4ApvT7F4htF&mobile=8668420527&message=hi this is a test message from orient furniture&type=txt';
   // var options = 'http://bhashsms.com/api/sendmsg.php?user=9860048761&pass=8a94cb5&sender=TESTTO&phone=9860048761&text=hi this is a test message from orient furniture&priority=ndnd&stype=normal';
   
-  var options = 'http://login.bulksmsgateway.in/sendmessage.php?user=raees&password=9860048761&mobile='+toNumber+'&message='+text+'&sender=ORIENT&type=3'
+  var options = 'http://login.bulksmsgateway.in/sendmessage.php?user=raees&password=xxxxxx&mobile='+toNumber+'&message='+text+'&sender=ORIENT&type=3'
   http.get(options, function(response) {
     response.setEncoding('utf8');
     response.on('data', function (chunk) {
